@@ -19,7 +19,7 @@ import json
 from time import time
 from django.core.exceptions import ObjectDoesNotExist
 from django.views.decorators.csrf import csrf_exempt
-from edureka.settings import *
+from learnshpere.settings import *
 import razorpay
 client = razorpay.Client(auth=(KEY_IC, KEY_RESET))
 # Create your views here.
