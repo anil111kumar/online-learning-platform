@@ -5,7 +5,7 @@ from ckeditor.fields import RichTextField
 from django.core.validators import MaxValueValidator, MinValueValidator
 import time
 import os
-from edureka import settings
+from learnshpere import settings
 
 
 class Customer(models.Model):
